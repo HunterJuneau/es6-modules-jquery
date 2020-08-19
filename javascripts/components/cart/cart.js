@@ -17,7 +17,7 @@ const addToCart = (array, index) => {
 
 	cartButton.on('click', () => {
 		setCart(array[index]);
-    makeCart();
+		makeCart();
 	});
 };
 

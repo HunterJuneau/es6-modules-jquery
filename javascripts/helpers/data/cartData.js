@@ -1,7 +1,7 @@
 const cart = [];
 
 const setCart = (book) => {
-  cart.push(book);
+	cart.push(book);
 };
 
 const getCart = () => {
