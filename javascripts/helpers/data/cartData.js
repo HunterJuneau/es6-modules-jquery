@@ -5,11 +5,11 @@ const setCart = (book) => {
 };
 
 const getCart = () => {
-  return cart;
+	return cart;
 };
 
 const emptyCart = () => {
-  cart.length = 0;
+	cart.length = 0;
 };
 
-export { setCart, getCart, emptyCart }
+export { setCart, getCart, emptyCart };
